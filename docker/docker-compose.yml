@@ -12,7 +12,7 @@ services:
       # persistencia de dados
       - /docker_conf/rabbitmq/data/:/var/lib/rabbitmq/
       # mapemanento dos dados host:container
-      # neste caso serão armazenados no host os dados sobre as filas e mensagens do container
+      # neste caso serao armazenados no host os dados sobre as filas e mensagens do container
 
     environment:
       - RABBITMQ_DEFAULT_USER=admin

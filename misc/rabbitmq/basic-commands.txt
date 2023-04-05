@@ -1,0 +1,8 @@
+# Listing connections
+rabbitmqctl list_connections
+
+# Listing channels
+rabbitmqctl list_channels
+
+# Listing queues for vhost
+rabbitmqctl list_queues
